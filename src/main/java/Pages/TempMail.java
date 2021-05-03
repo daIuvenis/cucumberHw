@@ -25,7 +25,7 @@ public class TempMail implements ITempMail {
     }
 
     @FindBy(css = "#pre_rand")
-    public WebElement randomButton;
+    private WebElement randomButton;
 
     @FindBy(css = "#domain")
     private WebElement dropDownMenu;
@@ -33,10 +33,8 @@ public class TempMail implements ITempMail {
     @FindBy(css = "#pre_button")
     private WebElement inputNameAddress;
 
-    public String getNameAddress() {
-        String nameAddress = inputNameAddress.getAttribute("value");
-        String domainText = dropDownMenu.getAttribute("textContent");
-        return nameAddress + domainText;
+    public String rememberNameAddress() {
+        return inputNameAddress.getAttribute("value") + dropDownMenu.getAttribute("textContent");
     }
 
 
@@ -49,8 +47,12 @@ public class TempMail implements ITempMail {
     @FindBy(css = "#secret-address")
     private WebElement textFieldSecretAddress;
 
-    public String getTextSecretAddress() {
+    public String textSecretAddress() {
+        waitForVisibility(textFieldSecretAddress, 10);
         return textFieldSecretAddress.getAttribute("textContent");
+    }
+    public String textToSender(){
+        return textSecretAddress();
     }
 
     @FindBy(css = "#modal-settings > div > form > div.modal-header > div > button")
@@ -59,19 +61,17 @@ public class TempMail implements ITempMail {
     @FindBy(css = "#container-body > div > div.inbox > div > span")
     private WebElement textWaitNewMessage;
 
-    public void getAssertTextInMenu() {
-        String waitMessageText = textWaitNewMessage.getAttribute("textContent");
-        Assertions.assertEquals("В ожидании новых писем...", waitMessageText);
-    }
-
     @FindBy(css = "#compose")
     private WebElement buttonSend;
+
+    @FindBy(css = "#modal-compose > div")
+    private WebElement formSendMessage;
 
     public void buttonComposeIsDisplayed() {
         Assertions.assertTrue(buttonSend.isDisplayed());
     }
 
-    public static WebElement waitForVisibility(WebElement element, int timeOfWait, int... timeOfTryOut) {
+    public WebElement waitForVisibility(WebElement element, int timeOfWait, int... timeOfTryOut) {
         WebElement webElement = null;
         int timeOfRevision = timeOfTryOut.length == 0
                 ? 100
@@ -96,10 +96,6 @@ public class TempMail implements ITempMail {
     @FindBy(css = "#text")
     private WebElement textFieldTextMessage;
 
-    public void setTextInFieldText() {
-        textFieldTextMessage.sendKeys(getTextSecretAddress());
-    }
-
     public void setSecondTextInFieldText() {
         textFieldTextMessage.sendKeys("Test2");
     }
@@ -121,31 +117,17 @@ public class TempMail implements ITempMail {
     @FindBy(css = "#info > div.row.row-info.no-gutters > div.col.d-flex.mb-10 > span")
     private WebElement emailSender;
 
-    public String getTextInFieldEmailSender() {
-        return emailSender.getAttribute("textContent");
-    }
+
 
     @FindBy(css = "#info > div.subject.mb-20")
     private WebElement textFieldThemeSender;
 
-    public String getTextInFieldThemeSender() {
-        return textFieldThemeSender.getAttribute("textContent");
-    }
-
-    public void assertThemeSender() {
-        Assertions.assertEquals("Test", getTextInFieldEmailSender());
-    }
 
     @FindBy(css = "#info > div.overflow-auto.mb-20")
     private WebElement textSenderMessage;
 
-    public String getTextInFieldSenderMessage() {
-        return textSenderMessage.getAttribute("textContent");
-    }
-
-    public void assertSecretAddress() {
-        Assertions.assertEquals(getTextSecretAddress(), getTextInFieldSenderMessage());
-    }
+    @FindBy(css = "#form")
+    private WebElement formReply;
 
     @FindBy(css = "#reply")
     private WebElement buttonReply;
@@ -156,27 +138,17 @@ public class TempMail implements ITempMail {
     @FindBy(css = "#info > div.overflow-auto.mb-20")
     private WebElement textReTest2;
 
-    @FindBy(css = "#container-body > div > div.inbox > div:nth-child(2) > div")
+    @FindBy(css = "#container-body > div > div.inbox > div:nth-child(2) > div > div.subj.col-12.col-md-7.px-md-3")
     private WebElement divReTest;
-
-    public String getTextReTest() {
-        return textReTest2.getAttribute("textContent");
-    }
-
-    public void assertReTest() {
-        Assertions.assertEquals("Re: Test", getTextReTest());
-    }
 
     @FindBy(css = "#info > div.overflow-auto.mb-20")
     private WebElement textMessageSenderSecond;
 
-    public void assertTestSecond() {
-        String textMessageTest2 = textMessageSenderSecond.getAttribute("textContent");
-        Assertions.assertEquals("Test2", textMessageTest2);
-    }
-
     @FindBy(css = "#delete_mail")
     private WebElement buttonDelete;
+
+    @FindBy(css = "#modal-destroy-mail > div > div > div")
+    private WebElement formConfirmDelete;
 
     @FindBy(css = "#confirm_mail")
     private WebElement buttonConfirmDelete;

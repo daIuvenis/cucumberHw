@@ -1,6 +1,8 @@
 import Core.DriverFactory;
+import cucumber.api.java.AfterStep;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.jupiter.api.AfterEach;
 
 public class Hooks {
     @Before
@@ -8,7 +10,7 @@ public class Hooks {
         DriverFactory.initialize();
     }
 
-    @After
+    @AfterEach
     public void finish() {
         DriverFactory.quit();
     }

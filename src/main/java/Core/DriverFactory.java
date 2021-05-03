@@ -7,12 +7,12 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
     public static WebDriver driver = null;
-    public static String browserName = "chrome";
 
     public static void initialize() {
+        getDriver();
         assert driver != null;
         driver.manage().window().maximize();
-        DriverFactory.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //driver.get("https://tempmail.plus/ru/");
     }
 

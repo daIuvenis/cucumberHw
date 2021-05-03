@@ -1,0 +1,274 @@
+[30m
+[INFO ] 16:05:37 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:05:40 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:05:40 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:05:40 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:05:40 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:05:40 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:05:40 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:05:41 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:05:41 Steps.MainPageSteps.iCheckWhatTextIsDisplayed :> i check what text {string} is Displayed[m[30m
+[INFO ] 16:05:41 Steps.MainPageSteps.iClickToTheButtonSend :> I click to the button Send[m[30m
+[INFO ] 16:05:41 Steps.MainPageSteps.iCheckWhatModalWindowSendMessageOpen :> I check what modal window Send message open[m[30m
+[INFO ] 16:05:42 Steps.MainPageSteps.iSendTextNameAddressInTheFieldSendTo :> I send text name address in the Field Send to[m[30m
+[INFO ] 16:05:42 Steps.MainPageSteps.iSendTextInTheFieldTheme :> I send text {string} in the field Theme[m[30m
+[INFO ] 16:05:42 Steps.MainPageSteps.iSendTextSecretAddressInTheFieldTextMessage :> I send text secret address in the field text message[m[30m
+[INFO ] 16:05:42 Steps.MainPageSteps.iClickToTheButtonSendMessage :> I click to the button Send message[m[30m
+[INFO ] 16:05:42 Steps.MainPageSteps.iWaitForTheNewMessage :> I Wait for the new message[m[30m
+[INFO ] 16:05:51 Steps.MainPageSteps.iClickToTheNewMessage :> I click to the new message[m[30m
+[INFO ] 16:05:51 Steps.MainPageSteps.iCheckNameSender :> I check name sender[m[30m
+[INFO ] 16:05:51 Steps.MainPageSteps.iCheckTextInThemeSender :> I check text {string} in theme sender[m[30m
+[INFO ] 16:05:51 Steps.MainPageSteps.iCheckTextInTetFieldSecretAddress :> I check text in tet field secret address[m[30m
+[INFO ] 16:05:51 Steps.MainPageSteps.iClickToTheButtonReply :> I click to the button Reply[m[30m
+[INFO ] 16:05:51 Steps.MainPageSteps.iCheckToVisibilityFormReply :> I check to visibility form Reply[m[30m
+[INFO ] 16:05:51 Steps.MainPageSteps.iSendTextInTextFieldMessage :> I send text {string} in text field message[m[30m
+[INFO ] 16:05:52 Steps.MainPageSteps.iClickToTheButtonSendMessageInFormReply :> I click to the button Send message in  form Reply[m[30m
+[INFO ] 16:05:52 Steps.MainPageSteps.iClickToTheButtonBack :> I click to the button Back[m[30m
+[INFO ] 16:05:52 Steps.MainPageSteps.iCheckThatTheMessageHasCome :> I check that the message has come[m[30m
+[INFO ] 16:05:52 Steps.MainPageSteps.iOpenMessageReTest :> I open message Re: Test[m[30m
+[INFO ] 16:05:53 Steps.MainPageSteps.iCheckTextInBodyText :> I check text {string} in body text[m[30m
+[INFO ] 16:05:53 Steps.MainPageSteps.iClickToTheButtonDelete :> I click to the button delete[m[30m
+[INFO ] 16:05:53 Steps.MainPageSteps.iWaitOpenedModalWindowConfirmDelete :> I wait opened modal window Confirm delete[m[30m
+[INFO ] 16:05:53 Steps.MainPageSteps.iConfirmDeletion :> I confirm deletion[m[30m
+[INFO ] 16:05:54 Steps.MainPageSteps.iCheckThatThereIsNoEmailWithTheSubject :> I check that there is no email with the subject {string}[m[30m
+[INFO ] 16:22:54 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:22:59 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:23:00 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:23:00 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:23:00 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:23:00 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:23:00 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:23:01 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:23:01 Steps.MainPageSteps.iCheckWhatTextIsDisplayed :> i check what text {string} is Displayed[m[30m
+[INFO ] 16:23:01 Steps.MainPageSteps.iClickToTheButtonSend :> I click to the button Send[m[30m
+[INFO ] 16:23:01 Steps.MainPageSteps.iCheckWhatModalWindowSendMessageOpen :> I check what modal window Send message open[m[30m
+[INFO ] 16:23:01 Steps.MainPageSteps.iSendTextNameAddressInTheFieldSendTo :> I send text name address in the Field Send to[m[30m
+[INFO ] 16:23:02 Steps.MainPageSteps.iSendTextInTheFieldTheme :> I send text {string} in the field Theme[m[30m
+[INFO ] 16:23:02 Steps.MainPageSteps.iSendTextSecretAddressInTheFieldTextMessage :> I send text secret address in the field text message[m[30m
+[INFO ] 16:23:02 Steps.MainPageSteps.iClickToTheButtonSendMessage :> I click to the button Send message[m[30m
+[INFO ] 16:23:02 Steps.MainPageSteps.iWaitForTheNewMessage :> I Wait for the new message[m[30m
+[INFO ] 16:23:10 Steps.MainPageSteps.iClickToTheNewMessage :> I click to the new message[m[30m
+[INFO ] 16:23:10 Steps.MainPageSteps.iCheckNameSender :> I check name sender[m[30m
+[INFO ] 16:23:11 Steps.MainPageSteps.iCheckTextInThemeSender :> I check text {string} in theme sender[m[30m
+[INFO ] 16:23:11 Steps.MainPageSteps.iCheckTextInTetFieldSecretAddress :> I check text in tet field secret address[m[30m
+[INFO ] 16:23:11 Steps.MainPageSteps.iClickToTheButtonReply :> I click to the button Reply[m[30m
+[INFO ] 16:23:11 Steps.MainPageSteps.iCheckToVisibilityFormReply :> I check to visibility form Reply[m[30m
+[INFO ] 16:23:11 Steps.MainPageSteps.iSendTextInTextFieldMessage :> I send text {string} in text field message[m[30m
+[INFO ] 16:23:11 Steps.MainPageSteps.iClickToTheButtonSendMessageInFormReply :> I click to the button Send message in  form Reply[m[30m
+[INFO ] 16:23:11 Steps.MainPageSteps.iClickToTheButtonBack :> I click to the button Back[m[30m
+[INFO ] 16:23:12 Steps.MainPageSteps.iCheckThatTheMessageHasCome :> I check that the message has come[m[30m
+[INFO ] 16:23:12 Steps.MainPageSteps.iOpenMessageReTest :> I open message Re: Test[m[30m
+[INFO ] 16:23:12 Steps.MainPageSteps.iCheckTextInBodyText :> I check text {string} in body text[m[30m
+[INFO ] 16:23:12 Steps.MainPageSteps.iClickToTheButtonDelete :> I click to the button delete[m[30m
+[INFO ] 16:23:12 Steps.MainPageSteps.iWaitOpenedModalWindowConfirmDelete :> I wait opened modal window Confirm delete[m[30m
+[INFO ] 16:23:13 Steps.MainPageSteps.iConfirmDeletion :> I confirm deletion[m[30m
+[INFO ] 16:23:13 Steps.MainPageSteps.iCheckThatThereIsNoEmailWithTheSubject :> I check that there is no email with the subject {string}[m[30m
+[INFO ] 16:24:22 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:24:26 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:24:26 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:24:26 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:24:27 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:24:27 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:24:27 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:24:28 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:24:28 Steps.MainPageSteps.iCheckWhatTextIsDisplayed :> i check what text {string} is Displayed[m[30m
+[INFO ] 16:24:28 Steps.MainPageSteps.iClickToTheButtonSend :> I click to the button Send[m[30m
+[INFO ] 16:24:28 Steps.MainPageSteps.iCheckWhatModalWindowSendMessageOpen :> I check what modal window Send message open[m[30m
+[INFO ] 16:24:28 Steps.MainPageSteps.iSendTextNameAddressInTheFieldSendTo :> I send text name address in the Field Send to[m[30m
+[INFO ] 16:24:29 Steps.MainPageSteps.iSendTextInTheFieldTheme :> I send text {string} in the field Theme[m[30m
+[INFO ] 16:24:29 Steps.MainPageSteps.iSendTextSecretAddressInTheFieldTextMessage :> I send text secret address in the field text message[m[30m
+[INFO ] 16:24:29 Steps.MainPageSteps.iClickToTheButtonSendMessage :> I click to the button Send message[m[30m
+[INFO ] 16:24:29 Steps.MainPageSteps.iWaitForTheNewMessage :> I Wait for the new message[m[30m
+[INFO ] 16:24:37 Steps.MainPageSteps.iClickToTheNewMessage :> I click to the new message[m[30m
+[INFO ] 16:24:37 Steps.MainPageSteps.iCheckNameSender :> I check name sender[m[30m
+[INFO ] 16:24:37 Steps.MainPageSteps.iCheckTextInThemeSender :> I check text {string} in theme sender[m[30m
+[INFO ] 16:24:37 Steps.MainPageSteps.iCheckTextInTetFieldSecretAddress :> I check text in tet field secret address[m[30m
+[INFO ] 16:24:37 Steps.MainPageSteps.iClickToTheButtonReply :> I click to the button Reply[m[30m
+[INFO ] 16:24:38 Steps.MainPageSteps.iCheckToVisibilityFormReply :> I check to visibility form Reply[m[30m
+[INFO ] 16:24:38 Steps.MainPageSteps.iSendTextInTextFieldMessage :> I send text {string} in text field message[m[30m
+[INFO ] 16:24:38 Steps.MainPageSteps.iClickToTheButtonSendMessageInFormReply :> I click to the button Send message in  form Reply[m[30m
+[INFO ] 16:24:38 Steps.MainPageSteps.iClickToTheButtonBack :> I click to the button Back[m[30m
+[INFO ] 16:24:38 Steps.MainPageSteps.iCheckThatTheMessageHasCome :> I check that the message has come[m[30m
+[INFO ] 16:24:39 Steps.MainPageSteps.iOpenMessageReTest :> I open message Re: Test[m[30m
+[INFO ] 16:24:39 Steps.MainPageSteps.iCheckTextInBodyText :> I check text {string} in body text[m[30m
+[INFO ] 16:24:39 Steps.MainPageSteps.iClickToTheButtonDelete :> I click to the button delete[m[30m
+[INFO ] 16:24:39 Steps.MainPageSteps.iWaitOpenedModalWindowConfirmDelete :> I wait opened modal window Confirm delete[m[30m
+[INFO ] 16:24:39 Steps.MainPageSteps.iConfirmDeletion :> I confirm deletion[m[30m
+[INFO ] 16:24:40 Steps.MainPageSteps.iCheckThatThereIsNoEmailWithTheSubject :> I check that there is no email with the subject {string}[m[30m
+[INFO ] 16:25:47 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:25:51 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:25:51 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:25:51 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:25:52 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:25:52 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:25:52 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:25:52 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:25:52 Steps.MainPageSteps.iCheckWhatTextIsDisplayed :> i check what text {string} is Displayed[m[30m
+[INFO ] 16:25:53 Steps.MainPageSteps.iClickToTheButtonSend :> I click to the button Send[m[30m
+[INFO ] 16:25:53 Steps.MainPageSteps.iCheckWhatModalWindowSendMessageOpen :> I check what modal window Send message open[m[30m
+[INFO ] 16:25:53 Steps.MainPageSteps.iSendTextNameAddressInTheFieldSendTo :> I send text name address in the Field Send to[m[30m
+[INFO ] 16:26:20 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:26:23 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:26:23 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:26:23 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:26:23 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:26:23 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:26:23 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:26:24 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:26:24 Steps.MainPageSteps.iCheckWhatTextIsDisplayed :> i check what text {string} is Displayed[m[30m
+[INFO ] 16:26:24 Steps.MainPageSteps.iClickToTheButtonSend :> I click to the button Send[m[30m
+[INFO ] 16:26:24 Steps.MainPageSteps.iCheckWhatModalWindowSendMessageOpen :> I check what modal window Send message open[m[30m
+[INFO ] 16:26:25 Steps.MainPageSteps.iSendTextNameAddressInTheFieldSendTo :> I send text name address in the Field Send to[m[30m
+[INFO ] 16:26:25 Steps.MainPageSteps.iSendTextInTheFieldTheme :> I send text {string} in the field Theme[m[30m
+[INFO ] 16:26:25 Steps.MainPageSteps.iSendTextSecretAddressInTheFieldTextMessage :> I send text secret address in the field text message[m[30m
+[INFO ] 16:26:25 Steps.MainPageSteps.iClickToTheButtonSendMessage :> I click to the button Send message[m[30m
+[INFO ] 16:26:25 Steps.MainPageSteps.iWaitForTheNewMessage :> I Wait for the new message[m[30m
+[INFO ] 16:26:34 Steps.MainPageSteps.iClickToTheNewMessage :> I click to the new message[m[30m
+[INFO ] 16:26:34 Steps.MainPageSteps.iCheckNameSender :> I check name sender[m[30m
+[INFO ] 16:26:34 Steps.MainPageSteps.iCheckTextInThemeSender :> I check text {string} in theme sender[m[30m
+[INFO ] 16:26:34 Steps.MainPageSteps.iCheckTextInTetFieldSecretAddress :> I check text in tet field secret address[m[30m
+[INFO ] 16:26:34 Steps.MainPageSteps.iClickToTheButtonReply :> I click to the button Reply[m[30m
+[INFO ] 16:26:34 Steps.MainPageSteps.iCheckToVisibilityFormReply :> I check to visibility form Reply[m[30m
+[INFO ] 16:26:34 Steps.MainPageSteps.iSendTextInTextFieldMessage :> I send text {string} in text field message[m[30m
+[INFO ] 16:26:35 Steps.MainPageSteps.iClickToTheButtonSendMessageInFormReply :> I click to the button Send message in  form Reply[m[30m
+[INFO ] 16:26:35 Steps.MainPageSteps.iClickToTheButtonBack :> I click to the button Back[m[30m
+[INFO ] 16:26:35 Steps.MainPageSteps.iCheckThatTheMessageHasCome :> I check that the message has come[m[30m
+[INFO ] 16:26:35 Steps.MainPageSteps.iOpenMessageReTest :> I open message Re: Test[m[30m
+[INFO ] 16:26:35 Steps.MainPageSteps.iCheckTextInBodyText :> I check text {string} in body text[m[30m
+[INFO ] 16:26:36 Steps.MainPageSteps.iClickToTheButtonDelete :> I click to the button delete[m[30m
+[INFO ] 16:26:36 Steps.MainPageSteps.iWaitOpenedModalWindowConfirmDelete :> I wait opened modal window Confirm delete[m[30m
+[INFO ] 16:26:36 Steps.MainPageSteps.iConfirmDeletion :> I confirm deletion[m[30m
+[INFO ] 16:26:36 Steps.MainPageSteps.iCheckThatThereIsNoEmailWithTheSubject :> I check that there is no email with the subject {string}[m[30m
+[INFO ] 16:28:13 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:28:16 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:28:17 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:28:17 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:28:17 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:28:17 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:28:17 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:28:18 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:28:18 Steps.MainPageSteps.iCheckWhatTextIsDisplayed :> i check what text {string} is Displayed[m[30m
+[INFO ] 16:28:18 Steps.MainPageSteps.iClickToTheButtonSend :> I click to the button Send[m[30m
+[INFO ] 16:28:18 Steps.MainPageSteps.iCheckWhatModalWindowSendMessageOpen :> I check what modal window Send message open[m[30m
+[INFO ] 16:28:18 Steps.MainPageSteps.iSendTextNameAddressInTheFieldSendTo :> I send text name address in the Field Send to[m[30m
+[INFO ] 16:29:15 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:29:19 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:29:20 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:29:20 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:29:20 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:29:20 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:29:20 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:29:21 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:29:21 Steps.MainPageSteps.iCheckWhatTextIsDisplayed :> i check what text {string} is Displayed[m[30m
+[INFO ] 16:29:21 Steps.MainPageSteps.iClickToTheButtonSend :> I click to the button Send[m[30m
+[INFO ] 16:29:21 Steps.MainPageSteps.iCheckWhatModalWindowSendMessageOpen :> I check what modal window Send message open[m[30m
+[INFO ] 16:29:21 Steps.MainPageSteps.iSendTextNameAddressInTheFieldSendTo :> I send text name address in the Field Send to[m[30m
+[INFO ] 16:29:22 Steps.MainPageSteps.iSendTextInTheFieldTheme :> I send text {string} in the field Theme[m[30m
+[INFO ] 16:29:22 Steps.MainPageSteps.iSendTextSecretAddressInTheFieldTextMessage :> I send text secret address in the field text message[m[30m
+[INFO ] 16:29:22 Steps.MainPageSteps.iClickToTheButtonSendMessage :> I click to the button Send message[m[30m
+[INFO ] 16:29:22 Steps.MainPageSteps.iWaitForTheNewMessage :> I Wait for the new message[m[30m
+[INFO ] 16:29:30 Steps.MainPageSteps.iClickToTheNewMessage :> I click to the new message[m[30m
+[INFO ] 16:29:30 Steps.MainPageSteps.iCheckNameSender :> I check name sender[m[30m
+[INFO ] 16:29:31 Steps.MainPageSteps.iCheckTextInThemeSender :> I check text {string} in theme sender[m[30m
+[INFO ] 16:29:31 Steps.MainPageSteps.iCheckTextInTetFieldSecretAddress :> I check text in tet field secret address[m[30m
+[INFO ] 16:29:31 Steps.MainPageSteps.iClickToTheButtonReply :> I click to the button Reply[m[30m
+[INFO ] 16:29:31 Steps.MainPageSteps.iCheckToVisibilityFormReply :> I check to visibility form Reply[m[30m
+[INFO ] 16:29:31 Steps.MainPageSteps.iSendTextInTextFieldMessage :> I send text {string} in text field message[m[30m
+[INFO ] 16:29:31 Steps.MainPageSteps.iClickToTheButtonSendMessageInFormReply :> I click to the button Send message in  form Reply[m[30m
+[INFO ] 16:29:31 Steps.MainPageSteps.iClickToTheButtonBack :> I click to the button Back[m[30m
+[INFO ] 16:29:32 Steps.MainPageSteps.iCheckThatTheMessageHasCome :> I check that the message has come[m[30m
+[INFO ] 16:29:32 Steps.MainPageSteps.iOpenMessageReTest :> I open message Re: Test[m[30m
+[INFO ] 16:29:32 Steps.MainPageSteps.iCheckTextInBodyText :> I check text {string} in body text[m[30m
+[INFO ] 16:29:32 Steps.MainPageSteps.iClickToTheButtonDelete :> I click to the button delete[m[30m
+[INFO ] 16:29:32 Steps.MainPageSteps.iWaitOpenedModalWindowConfirmDelete :> I wait opened modal window Confirm delete[m[30m
+[INFO ] 16:29:33 Steps.MainPageSteps.iConfirmDeletion :> I confirm deletion[m[30m
+[INFO ] 16:29:33 Steps.MainPageSteps.iCheckThatThereIsNoEmailWithTheSubject :> I check that there is no email with the subject {string}[m[30m
+[INFO ] 16:33:22 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:33:24 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:33:25 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:33:25 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:33:25 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:33:25 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:33:25 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:33:26 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:33:42 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:33:45 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:33:45 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:33:45 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:33:46 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:33:46 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:33:46 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:33:46 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:34:39 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:34:43 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:34:43 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:34:44 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:34:44 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:34:44 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:34:44 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:34:45 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:41:15 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:41:18 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:41:19 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:41:19 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:41:19 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:41:19 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:41:20 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:41:20 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:45:08 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:45:11 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:45:12 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:45:12 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:45:12 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:45:12 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:45:12 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:45:13 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:45:13 Steps.MainPageSteps.iCheckWhatTextIsDisplayed :> i check what text {string} is Displayed[m[30m
+[INFO ] 16:45:13 Steps.MainPageSteps.iClickToTheButtonSend :> I click to the button Send[m[30m
+[INFO ] 16:45:14 Steps.MainPageSteps.iCheckWhatModalWindowSendMessageOpen :> I check what modal window Send message open[m[30m
+[INFO ] 16:45:14 Steps.MainPageSteps.iSendTextNameAddressInTheFieldSendTo :> I send text name address in the Field Send to[m[30m
+[INFO ] 16:45:15 Steps.MainPageSteps.iSendTextInTheFieldTheme :> I send text {string} in the field Theme[m[30m
+[INFO ] 16:45:15 Steps.MainPageSteps.iSendTextSecretAddressInTheFieldTextMessage :> I send text secret address in the field text message[m[30m
+[INFO ] 16:45:15 Steps.MainPageSteps.iClickToTheButtonSendMessage :> I click to the button Send message[m[30m
+[INFO ] 16:45:15 Steps.MainPageSteps.iWaitForTheNewMessage :> I Wait for the new message[m[30m
+[INFO ] 16:45:22 Steps.MainPageSteps.iClickToTheNewMessage :> I click to the new message[m[30m
+[INFO ] 16:45:23 Steps.MainPageSteps.iCheckNameSender :> I check name sender[m[30m
+[INFO ] 16:45:23 Steps.MainPageSteps.iCheckTextInThemeSender :> I check text {string} in theme sender[m[30m
+[INFO ] 16:45:23 Steps.MainPageSteps.iCheckTextInTetFieldSecretAddress :> I check text in tet field secret address[m[30m
+[INFO ] 16:45:23 Steps.MainPageSteps.iClickToTheButtonReply :> I click to the button Reply[m[30m
+[INFO ] 16:45:23 Steps.MainPageSteps.iCheckToVisibilityFormReply :> I check to visibility form Reply[m[30m
+[INFO ] 16:45:23 Steps.MainPageSteps.iSendTextInTextFieldMessage :> I send text {string} in text field message[m[30m
+[INFO ] 16:45:23 Steps.MainPageSteps.iClickToTheButtonSendMessageInFormReply :> I click to the button Send message in  form Reply[m[30m
+[INFO ] 16:45:24 Steps.MainPageSteps.iClickToTheButtonBack :> I click to the button Back[m[30m
+[INFO ] 16:45:48 Steps.MainPageSteps.iOpenTempMailPage :> I open Temp Mail page[m[30m
+[INFO ] 16:45:52 Steps.MainPageSteps.IClickButtonRandom :> I click button random[m[30m
+[INFO ] 16:45:52 Steps.MainPageSteps.iOpenDropdownMenu :> I open dropdown menu[m[30m
+[INFO ] 16:45:52 Steps.MainPageSteps.iEnterRoverInfoInDropdownMenu :> I enter rover.info in dropdown menu[m[30m
+[INFO ] 16:45:52 Steps.MainPageSteps.iRememberNameAddressAndDomain :> I remember name address and domain[m[30m
+[INFO ] 16:45:52 Steps.MainPageSteps.iOpenSettings :> I open settings[m[30m
+[INFO ] 16:45:52 Steps.MainPageSteps.iRememberSecretAddressAndCloseModalWindow :> I remember secret address and close modal window[m[30m
+[INFO ] 16:45:53 Steps.MainPageSteps.iCheckWhatModalWindowSettingsIsClosed :> I check what modal window is closed[m[30m
+[INFO ] 16:45:53 Steps.MainPageSteps.iCheckWhatTextIsDisplayed :> i check what text {string} is Displayed[m[30m
+[INFO ] 16:45:53 Steps.MainPageSteps.iClickToTheButtonSend :> I click to the button Send[m[30m
+[INFO ] 16:45:53 Steps.MainPageSteps.iCheckWhatModalWindowSendMessageOpen :> I check what modal window Send message open[m[30m
+[INFO ] 16:45:53 Steps.MainPageSteps.iSendTextNameAddressInTheFieldSendTo :> I send text name address in the Field Send to[m[30m
+[INFO ] 16:45:54 Steps.MainPageSteps.iSendTextInTheFieldTheme :> I send text {string} in the field Theme[m[30m
+[INFO ] 16:45:54 Steps.MainPageSteps.iSendTextSecretAddressInTheFieldTextMessage :> I send text secret address in the field text message[m[30m
+[INFO ] 16:45:54 Steps.MainPageSteps.iClickToTheButtonSendMessage :> I click to the button Send message[m[30m
+[INFO ] 16:45:54 Steps.MainPageSteps.iWaitForTheNewMessage :> I Wait for the new message[m[30m
+[INFO ] 16:46:02 Steps.MainPageSteps.iClickToTheNewMessage :> I click to the new message[m[30m
+[INFO ] 16:46:03 Steps.MainPageSteps.iCheckNameSender :> I check name sender[m[30m
+[INFO ] 16:46:03 Steps.MainPageSteps.iCheckTextInThemeSender :> I check text {string} in theme sender[m[30m
+[INFO ] 16:46:03 Steps.MainPageSteps.iCheckTextInTetFieldSecretAddress :> I check text in tet field secret address[m[30m
+[INFO ] 16:46:03 Steps.MainPageSteps.iClickToTheButtonReply :> I click to the button Reply[m[30m
+[INFO ] 16:46:03 Steps.MainPageSteps.iCheckToVisibilityFormReply :> I check to visibility form Reply[m[30m
+[INFO ] 16:46:03 Steps.MainPageSteps.iSendTextInTextFieldMessage :> I send text {string} in text field message[m[30m
+[INFO ] 16:46:03 Steps.MainPageSteps.iClickToTheButtonSendMessageInFormReply :> I click to the button Send message in  form Reply[m[30m
+[INFO ] 16:46:04 Steps.MainPageSteps.iClickToTheButtonBack :> I click to the button Back[m[30m
+[INFO ] 16:46:04 Steps.MainPageSteps.iCheckThatTheMessageHasCome :> I check that the message has come[m[30m
+[INFO ] 16:46:04 Steps.MainPageSteps.iOpenMessageReTest :> I open message Re: Test[m[30m
+[INFO ] 16:46:04 Steps.MainPageSteps.iCheckTextInBodyText :> I check text {string} in body text[m[30m
+[INFO ] 16:46:05 Steps.MainPageSteps.iClickToTheButtonDelete :> I click to the button delete[m[30m
+[INFO ] 16:46:05 Steps.MainPageSteps.iWaitOpenedModalWindowConfirmDelete :> I wait opened modal window Confirm delete[m[30m
+[INFO ] 16:46:05 Steps.MainPageSteps.iConfirmDeletion :> I confirm deletion[m[30m
+[INFO ] 16:46:05 Steps.MainPageSteps.iCheckThatThereIsNoEmailWithTheSubject :> I check that there is no email with the subject {string}[m
