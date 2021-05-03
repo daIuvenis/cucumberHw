@@ -7,16 +7,17 @@ import cucumber.api.java.en.Then;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.interactions.Actions;
 
-import java.util.Set;
+import static Core.Config.*;
 
 public class MainPageSteps extends Steps {
     public String SaveSecretAddress;
     public String SaveEmail;
     Actions action = new Actions(DriverFactory.getDriver());
+
     @Given("I open Temp Mail page")
     public void iOpenTempMailPage() {
         log.info("I open Temp Mail page");
-        DriverFactory.getDriver().get("https://tempmail.plus/ru/");
+        DriverFactory.getDriver().get(URL);
     }
 
     @And("I click button random")
@@ -140,7 +141,7 @@ public class MainPageSteps extends Steps {
     @Then("I check text in tet field secret address")
     public void iCheckTextInTetFieldSecretAddress() {
         log.info("I check text in tet field secret address");
-        Assertions.assertEquals(SaveSecretAddress,iTempMail.getTextSenderMessage().getAttribute("textContent"));
+        Assertions.assertEquals(SaveSecretAddress, iTempMail.getTextSenderMessage().getAttribute("textContent"));
     }
 
     @And("I click to the button Reply")
@@ -152,7 +153,7 @@ public class MainPageSteps extends Steps {
     @Then("I check to visibility form Reply")
     public void iCheckToVisibilityFormReply() {
         log.info("I check to visibility form Reply");
-        iTempMail.waitForVisibility(iTempMail.getFormReply(),10);
+        iTempMail.waitForVisibility(iTempMail.getFormReply(), 10);
     }
 
     @Then("I send text {string} in text field message")
@@ -164,19 +165,19 @@ public class MainPageSteps extends Steps {
     @Then("I click to the button Send message in  form Reply")
     public void iClickToTheButtonSendMessageInFormReply() {
         log.info("I click to the button Send message in  form Reply");
-        iTempMail.getButtonSubmit().click();
+        iTempMail.waitForVisibility(iTempMail.getButtonSubmit(), 10).click();
     }
 
     @And("I click to the button Back")
     public void iClickToTheButtonBack() {
         log.info("I click to the button Back");
-        iTempMail.waitForVisibility(iTempMail.getButtonBackToMenu(),10).click();
+        iTempMail.waitForVisibility(iTempMail.getButtonBackToMenu(), 10).click();
     }
 
     @And("I check that the message has come")
     public void iCheckThatTheMessageHasCome() {
         log.info("I check that the message has come");
-        iTempMail.waitForVisibility(iTempMail.getDivReTest(),10);
+        iTempMail.waitForVisibility(iTempMail.getDivReTest(), 10);
         Assertions.assertTrue(DriverFactory.driver.getPageSource().contains("Re: Test"));
     }
 

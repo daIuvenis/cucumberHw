@@ -13,7 +13,6 @@ public class DriverFactory {
         assert driver != null;
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //driver.get("https://tempmail.plus/ru/");
     }
 
     public static void quit() {

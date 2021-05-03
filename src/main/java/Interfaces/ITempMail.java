@@ -16,14 +16,12 @@ public interface ITempMail extends IPage {
 
     String textSecretAddress();
 
-//    void buttonComposeIsDisplayed();
 
     WebElement getButtonClose();
 
     WebElement waitForVisibility(WebElement element, int timeOfWait, int... timeOfTryOut);
 
     WebElement getTextWaitNewMessage();
-
 
     WebElement getButtonSend();
 

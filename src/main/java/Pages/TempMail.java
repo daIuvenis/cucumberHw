@@ -3,12 +3,8 @@ package Pages;
 import Core.DriverFactory;
 import Interfaces.ITempMail;
 import lombok.Getter;
-
-import org.junit.jupiter.api.Assertions;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -37,7 +33,6 @@ public class TempMail implements ITempMail {
         return inputNameAddress.getAttribute("value") + dropDownMenu.getAttribute("textContent");
     }
 
-
     @FindBy(css = "#pre_form > div > div.dropdown.mb-30.mb-md-0.show > div > button:nth-child(6)")
     private WebElement roverInfo;
 
@@ -51,7 +46,8 @@ public class TempMail implements ITempMail {
         waitForVisibility(textFieldSecretAddress, 10);
         return textFieldSecretAddress.getAttribute("textContent");
     }
-    public String textToSender(){
+
+    public String textToSender() {
         return textSecretAddress();
     }
 
@@ -66,10 +62,6 @@ public class TempMail implements ITempMail {
 
     @FindBy(css = "#modal-compose > div")
     private WebElement formSendMessage;
-
-    public void buttonComposeIsDisplayed() {
-        Assertions.assertTrue(buttonSend.isDisplayed());
-    }
 
     public WebElement waitForVisibility(WebElement element, int timeOfWait, int... timeOfTryOut) {
         WebElement webElement = null;
@@ -96,32 +88,17 @@ public class TempMail implements ITempMail {
     @FindBy(css = "#text")
     private WebElement textFieldTextMessage;
 
-    public void setSecondTextInFieldText() {
-        textFieldTextMessage.sendKeys("Test2");
-    }
-
-
     @FindBy(css = "#submit")
     private WebElement buttonSubmit;
 
     @FindBy(css = "#container-body > div > div.inbox > div.mail > div")
     private WebElement divMessage;
 
-
-    public void clickToDivMessage() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#container-body > div > div.inbox > div.mail > div")));
-        divMessage.click();
-    }
-
     @FindBy(css = "#info > div.row.row-info.no-gutters > div.col.d-flex.mb-10 > span")
     private WebElement emailSender;
 
-
-
     @FindBy(css = "#info > div.subject.mb-20")
     private WebElement textFieldThemeSender;
-
 
     @FindBy(css = "#info > div.overflow-auto.mb-20")
     private WebElement textSenderMessage;
@@ -152,10 +129,4 @@ public class TempMail implements ITempMail {
 
     @FindBy(css = "#confirm_mail")
     private WebElement buttonConfirmDelete;
-
-    public void findElementRe() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#delete")));
-        Assertions.assertFalse(driver.getPageSource().contains("Re: Test"));
-    }
 }
